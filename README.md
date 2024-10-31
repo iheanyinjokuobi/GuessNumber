@@ -41,3 +41,56 @@ This application follows the Model-View-Controller (MVC) design pattern:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/guess-the-number.git
+   Navigate to the project directory:
+bash
+Copy code
+cd guess-the-number
+[Install any necessary dependencies, if applicable, using appropriate package manager commands, e.g., for Node.js: npm install.]
+Usage
+
+To start the game, execute the main script:
+
+bash
+Copy code
+[command to run your game, e.g., python main.py]
+Follow the on-screen instructions to guess the number. Enjoy!
+
+## Game Logic
+
+The game generates a random number within a specified range.
+The player is prompted to make guesses until they find the correct number.
+Feedback is provided after each guess (e.g., "Too high!" or "Too low!").
+The game continues until the player guesses correctly.
+MVC Architecture
+
+The application follows the MVC design pattern:
+
+Model: Manages the game state and logic, including random number generation and tracking guesses.
+View: Handles the user interface and displays information to the player.
+Controller: Interacts with user inputs, updates the model, and refreshes the view accordingly.
+Directory Structure
+
+bash
+Copy code
+/guess-the-number
+│
+├── /model         # Contains the game logic
+│   └── game.py
+│
+├── /view          # Contains the user interface logic
+│   └── interface.py
+│
+└── /controller     # Contains the input handling logic
+    └── controller.py
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/YourFeature).
+Make your changes and commit them (git commit -m 'Add new feature').
+Push to the branch (git push origin feature/YourFeature).
+Open a pull request.
+License
+
+This project is licensed under the [Your License Here] - see the LICENSE file for details.
