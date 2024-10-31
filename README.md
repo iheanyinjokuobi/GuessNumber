@@ -47,7 +47,7 @@ This application follows the Model-View-Controller (MVC) design pattern:
   cd guess-the-number
   ```
 [Install any necessary dependencies, if applicable, using appropriate package manager commands, e.g., for Node.js: npm install.]
-Usage
+## Usage
 
 To start the game, execute the main script:
 
