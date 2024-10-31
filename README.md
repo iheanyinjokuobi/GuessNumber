@@ -40,7 +40,7 @@ This application follows the Model-View-Controller (MVC) design pattern:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/iheanyinjokuobi/guess-the-number.git
+   git clone https://github.com/iheanyinjokuobi/GuessNumber.git
    Navigate to the project directory:
    
   ```bash
