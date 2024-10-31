@@ -42,9 +42,10 @@ This application follows the Model-View-Controller (MVC) design pattern:
    ```bash
    git clone https://github.com/yourusername/guess-the-number.git
    Navigate to the project directory:
-bash
+```bash
 Copy code
 cd guess-the-number
+```
 [Install any necessary dependencies, if applicable, using appropriate package manager commands, e.g., for Node.js: npm install.]
 Usage
 
@@ -70,8 +71,7 @@ View: Handles the user interface and displays information to the player.
 Controller: Interacts with user inputs, updates the model, and refreshes the view accordingly.
 Directory Structure
 
-bash
-Copy code
+```bash
 /guess-the-number
 │
 ├── /model         # Contains the game logic
@@ -82,6 +82,8 @@ Copy code
 │
 └── /controller     # Contains the input handling logic
     └── controller.py
+```
+
 ## Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
@@ -93,4 +95,4 @@ Push to the branch (git push origin feature/YourFeature).
 Open a pull request.
 License
 
-This project is licensed under the [Your License Here] - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
