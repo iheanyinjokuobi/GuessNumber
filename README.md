@@ -40,11 +40,11 @@ This application follows the Model-View-Controller (MVC) design pattern:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/guess-the-number.git
+   git clone https://github.com/iheanyinjokuobi/guess-the-number.git
    Navigate to the project directory:
    
   ```bash
-  cd guess-the-number
+  cd GuessNumber
   ```
 [Install any necessary dependencies, if applicable, using appropriate package manager commands, e.g., for Node.js: npm install.]
 ## Usage
