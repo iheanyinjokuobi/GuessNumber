@@ -42,10 +42,8 @@ This application follows the Model-View-Controller (MVC) design pattern:
    ```bash
    git clone https://github.com/iheanyinjokuobi/GuessNumber.git
    Navigate to the project directory:
-   
-  ```bash
-  cd GuessNumber
-  ```
+    cd GuessNumber
+    ```
 [Install any necessary dependencies, if applicable, using appropriate package manager commands, e.g., for Node.js: npm install.]
 ## Usage
 
